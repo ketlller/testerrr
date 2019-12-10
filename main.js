@@ -30,8 +30,8 @@ var livecoinhotbit = document.querySelector('.inputdrub6 span');
 
 let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
 
-    targetUrl_COIN_USD = 'https://btc-alpha.com/api/v1/orderbook/ETH_USD/'; 
-    targetUrl_COIN_USD_Livecoin = 'https://api.livecoin.net/exchange/order_book?currencyPair=ETH/USD'; 
+    targetUrl_COIN_USD = 'https://btc-alpha.com/api/v1/orderbook/ETH_USDT/'; 
+    targetUrl_COIN_USD_Livecoin = 'https://api.livecoin.net/exchange/order_book?currencyPair=ETH/USDT'; 
       targetUrl_COIN_USD_hotbit1 = 'https://api.hotbit.io/api/v1/order.book?market=ETH/USDT&side=1&offset=0&limit=1'; 
       targetUrl_COIN_USD_hotbit2 = 'https://api.hotbit.io/api/v1/order.book?market=ETH/USDT&side=2&offset=0&limit=1'; 
 
