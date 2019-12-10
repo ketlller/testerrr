@@ -95,7 +95,9 @@ livecoinbtcalpha.innerHTML = (((currentPrice_BuyCOIN_USD*100)/currentPrice_SellC
 livecoinhotbit.innerHTML = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);
 btcalphalivecoin.innerHTML = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	      
 hotbitlivecoin.innerHTML = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);
-btcalphahotbit.innerHTML = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD)-100).toFixed(2);        
+btcalphahotbit.innerHTML = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD)-100).toFixed(2);  
+hotbitbtcalpha.innerHTML = (((currentPrice_BuyCOIN_USD*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2); 	      
+	      
       console.log(body);	      
 	      
 	      
@@ -128,7 +130,7 @@ if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcal
      
     currentPrice_BuyCOIN_USD_hotbit = body.result.orders[0].price;
      
-        hotbitbtcalpha.innerHTML = (((currentPrice_BuyCOIN_USD*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2); 
+        
          
       
         
